@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rave</title>
+    <link rel="stylesheet" href="free.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="rave">
+                <div class="r">R</div>
+                <div class="a">a</div>
+                <div class="v">v</div>
+                <div class="e">e</div>
+                <div class="e">e</div>
+                <div class="x">x</div>
+                <div class="c">c</div>
+                <div class="h">h</div>
+                <div class="a">a</div>
+                <div class="n">n</div>
+                <div class="g">g</div>
+                <div class="e">e</div>
+            </div>
+            <nav>
+                <nav class="navbar">
+                    <ul class="left-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Service.html">Services</a></li>
+                        <li><a href="buying.html">Buying</a></li>
+                        <li><a href="selling.html">Selling</a></li>
+                        <li><a href="free.html">Reviews 😵</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <div class="logo">
+                        <img src="Images/logo 4.jpg" alt="Logo">
+                    </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Product Reviews</h1>
+        <div id="reviews"></div>
+        <h2>Add a Review</h2>
+        <form id="reviewForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required><br>
+            <label for="rating">Rating:</label>
+            <select id="rating" required>
+                <option value="">Select Rating</option>
+                <option value="1">1 Star</option>
+                <option value="2">2 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="5">5 Stars</option>
+            </select><br>
+            <label for="comment">Comment:</label><br>
+            <textarea id="comment" rows="4" cols="50" required></textarea><br>
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>
+
+    <script src="free.js"></script>
+
+    <section id="signup">
+        <div class="container">
+            <h2>Sign Up for Free</h2>
+            <form action="#" method="POST">
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <button type="submit" class="btn">Sign Up Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 Rave exchange</p>
+        </footer>
+    </body>
+</body>
+</html>
